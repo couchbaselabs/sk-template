@@ -1,0 +1,73 @@
+// General purpose tags describing what kind of project this ties into
+:tags: [meta]
+
+// Primary language of the starter kit
+:language: asciidoc
+
+// What is needed for this project (this might better go into language-specific sections,
+// unless it requires an external product (for example, another server). For repeated
+// requirements it should be possible to use an asciidoc include to include more
+// detailed explanations
+:requirements: [asciidoc, reading comprehension]
+
+// This text is displayed as the short description of the project
+:blurb: Demonstrate exposing Couchbase functionality via a REST API using Flask
+
+// Used to distinguish between example/guide types. We might also add "howto", etc.
+:type: starter
+
+// This should eventually go into a common header:
+:source-highlighter: highlightjs
+
+= Starter Kit Template
+
+== What this is
+
+This is a template for a starter kit. Starter kits are small pieces of code,
+either single files or projects, which can be run and/or cloned by users.
+
+Starter kits help developers learn more about Couchbase by allowing them to
+see Couchbase in action.
+
+== How to use this
+
+Copy this README template into the starter kit and modify the paragraph contents
+as needed.
+
+* The _What is this_ section should provide a brief description of what the
+starter kit does. It should explain what components are being used and its
+high level functionality.
+
+* The _How to use this_ section should explain how someone can adapt the starter
+kit to their environment.
+** The _Running_ section should demonstrate how this starter kit can be run
+as a standalone script/application, including any installation of dependencies.
+
+* The _Where to go from here_ section should hint at topics which may be too
+complex or in-depth for the starter kit to demonstrate; such as explaining
+or linking to best practices which the starter kit does not follow (for brevity).
+
+The _See also_ section should list any additional references related to the
+stater kit, such as other starter kits, blogs, and canonical Couchbase documentation.
+
+=== README Metadata
+
+If you're viewing this in GitHub, chances are that the internal annotations of the
+document will not be visible. You should view this file in raw mode to see the
+metadata. Each field will have its own comments you can use.
+
+=== Running
+
+[source]
+./install_me.sh
+./run_me.sh
+----
+
+=== Where to go from here
+
+See some actual starter kit examples. Because starter kits will vary heavily
+depending on the subject matter, some might warrant more explanation in the
+README while others may warrant more comments in the code base.
+
+=== See also
+* https://github.com/couchbaselabs/sk-python-couchbase-flask[Couchbase Flask Starter Kit]
