@@ -47,7 +47,7 @@ as a standalone script/application, including any installation of dependencies.
 complex or in-depth for the starter kit to demonstrate; such as explaining
 or linking to best practices which the starter kit does not follow (for brevity).
 
-The _See also_ section should list any additional references related to the
+* The _See also_ section should list any additional references related to the
 stater kit, such as other starter kits, blogs, and canonical Couchbase documentation.
 
 === README Metadata
@@ -59,6 +59,7 @@ metadata. Each field will have its own comments you can use.
 === Running
 
 [source]
+----
 ./install_me.sh
 ./run_me.sh
 ----
